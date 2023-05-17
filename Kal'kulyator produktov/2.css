@@ -1,0 +1,65 @@
+#parent {
+	margin: 100 auto;
+	width: 500px;
+}
+
+
+#form {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+
+
+#form input {
+	padding: 8px;
+	width: 25%;
+	margin: 0 0.5% 10px 0.5%;
+}
+
+
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 7px;
+}
+
+
+
+#table {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+#table td, #table th {
+	padding: 8px;
+	text-align: center;
+	border: 1px solid rgb(183, 0, 255);
+	color: rgb(0, 0, 0);
+}
+
+
+
+#table td.remove {
+	color: rgb(255, 0, 0);
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+#table td.remove:hover {
+	text-decoration: none;
+}
+
+
+#result {
+	text-align: right;
+	margin-right: 1px;
+	color: rgb(255, 123, 0);;
+}
+
+
+* {
+	box-sizing: border-box;
+}
